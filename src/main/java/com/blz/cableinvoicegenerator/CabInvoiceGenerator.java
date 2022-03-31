@@ -18,5 +18,19 @@ public double CalculateFare(double distance, double time) {
     } else
         return calculate_Fare;
 }
-
+    /**
+     * Call method to calculate average of multiple rides fare.
+     * @param v
+     * @param i
+     * @return
+     */
+    public static double CalculateAvgFare(double v, int i) {
+        double calculate_Fare = (v * COST_PER_KM) + (i * COST_PER_TIME);
+        if (calculate_Fare < MINIMUM_FARE) {
+            return MINIMUM_FARE;
+        } else
+            return calculate_Fare;
+    }
 }
+
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.blz.cableinvoicegenerator.CableInvoiceGeneratorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-30T13:57:03" hostname="DESKTOP-CAT4J8V" time="0.081">
+  <properties/>
+  <testcase name="givenDistanceAndTimeWhenComputedShouldReturnTotalFare()" classname="com.blz.cableinvoicegenerator.CableInvoiceGeneratorTest" time="0.081"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
